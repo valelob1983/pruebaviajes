@@ -57,19 +57,18 @@ body{
 
 .icono-container i {
    background-color: #00A8FF;
-   width: 400px;
+   align-items: flex-start;
 }
 
 .icono-bottom {
-    width: 400px;
+    align-items: flex-start;
     background-color:#00A8FF;
     
 }
-H5{
-    color: #fff;
-}
+
 .card-body {
     background-color: #00A8FF;
+    color: #fff;
 }
 .card {
     min-height: 350px; /* Ajusta según sea necesario */
@@ -78,4 +77,28 @@ H5{
     justify-content: space-between;
     margin: 2px;
 }
+.btn-lower {
+    margin-top: 10px;
+    color: white;
+    background-color: #17A2B8;
+}
+.contacto{
+    color: white;
+}
 
+
+
+footer {
+    background-color:#17A2B8 ; 
+    color: white; 
+    padding: 10px 0; 
+}
+
+footer h5 {
+    color: white; /* Color de texto del título */
+    font-size: 1.5rem; /* Tamaño de fuente del título */
+}
+
+footer i {
+    color: white; /* Color de los iconos */
+}
