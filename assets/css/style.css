@@ -1,3 +1,7 @@
+body{
+
+    background-color: black;
+}
 .navbar {
     position: absolute; /* ajusta de manera absoluta dentro del contenedor */
     width: 100%; /* ocupa el ancho complero de la pagina */
@@ -7,7 +11,7 @@
     background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco semitransparente */
 }
 .navbar-brand img {
-    height: 20px; /* Ajusta la altura del logo insertado */
+    height: 30px; /* Ajusta la altura del logo insertado */
 }
 .navbar-title {
     margin-left: 10px; /* Agrega un margen a la izquierda del logo */
@@ -31,8 +35,47 @@
     text-align: center;
     color: white;
 }
-.iconos{
-    width: 100%;
-    background-color: black;
-    color:white
+.iconos {
+
+    color: #fff;
 }
+
+.icono-container {   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+}
+
+.icono-container p {
+    margin-top: 20px;
+    color: white;
+    text-align: left; 
+    
+}
+
+.icono-container i {
+   background-color: #00A8FF;
+   width: 400px;
+}
+
+.icono-bottom {
+    width: 400px;
+    background-color:#00A8FF;
+    
+}
+H5{
+    color: #fff;
+}
+.card-body {
+    background-color: #00A8FF;
+}
+.card {
+    min-height: 350px; /* Ajusta según sea necesario */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2px;
+}
+
